@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css" />
+  </head>
+  <body>
+    <div id="calculadora">
+      <div id="screen">
+          <input id="input" value="0" type="text">
+      </div>
+      <div id="teclado">
+        <button value="%" class="btn">%</button>
+        <button value="" class="clear btn">CE</button>
+        <button value="" class="clear btn">C</button>
+        <button value="" class="borrar btn">&lt=</button>
+        <button value="" class="inversa btn">1/x</button>
+        <button value="" class="sqrt btn">x&#178</button>
+        <button value="" class="raiz btn">&#8730x</button>
+        <button value="/" class="operator btn">&#247</button>
+        <button value="7" class="digit btn dark">7</button>
+        <button value="8" class="digit btn dark">8</button>
+        <button value="9" class="digit btn dark">9</button>
+        <button value="*" class="operator btn">x</button>
+        <button value="4" class="digit btn dark">4</button>
+        <button value="5" class="digit btn dark">5</button>
+        <button value="6" class="digit btn dark">6</button>
+        <button value="-" class="operator btn">-</button>
+        <button value="1" class="digit btn dark">1</button>
+        <button value="2" class="digit btn dark">2</button>
+        <button value="3" class="digit btn dark">3</button>
+        <button value="+" class="operator btn">+</button>
+        <button value="%" class="btn dark">+/-</button>
+        <button value="0" class="digit btn dark">0</button>
+        <button value="." class="decimal btn dark">.</button>
+        <button value="=" class="resultado btn">=</button>
+      </div>
+      <div id="historial"></div>
+    </div>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
